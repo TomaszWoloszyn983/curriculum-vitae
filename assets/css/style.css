@@ -60,7 +60,7 @@ h1, h2, h3, h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 3px 30px;
+    padding: 0 30px 30px;
     float: none;
 }
 
