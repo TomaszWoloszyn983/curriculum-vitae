@@ -216,11 +216,12 @@
 
             var markers = locations.map(function(location, i){
                 return new google.maps.Marker({
-                    position: location, label: labels[i % labels.length]
+                    position: location, 
+                    label: labels[i % labels.length]
                 });
             });
 
-            var markerCluster = new markerCluster(map, markers,
+            var markerCluster = new markerClusterer(map, markers,
                 {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
         }
     </script>
