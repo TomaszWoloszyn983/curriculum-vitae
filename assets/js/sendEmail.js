@@ -1,6 +1,6 @@
 
 console.log("Hello from send Email!");
-function sendEmail(contactForm){
+function sendMail(contactForm){
     emailjs.send("service_jdj2x9p", "rosie_zqn5tmi", {
         "from_name": contactForm.name.value,
         "from_email": contactForm.emailaddress.value,
